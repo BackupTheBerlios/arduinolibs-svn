@@ -42,15 +42,6 @@ void setup()
 int count = 0 ; 
 void loop()
 {
-/*  
-  mySRF.init();
-  delay (70);
-  mySRF.read();
-  Serial.print ("distance") ;
-  Serial.print (",") ;
-  Serial.println (mySRF.getDistance());
-  delay (200);
-*/ 
 
   for (int i=0;i<MAX_SRF;i++){
     if (millis() - lastCall[i] >= 200){
