@@ -1,0 +1,5 @@
+I2C_compass	KEYWORD1
+init	KEYWORD2
+read	KEYWORD2
+calibrate	KEYWORD2
+getBearing	KEYWORD2
